@@ -9,6 +9,7 @@
         string FormatTypeName { get; set; }
         int HashIterations { get; set; }
         int SaltSize { get; set; }
+        int HashByteSize { get; set; }
         string PlainText { get; set; }
         string HashedText { get; }
         string Salt { get; set; }

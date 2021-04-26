@@ -17,12 +17,14 @@ namespace SimpleCryptoService.Implementation.Services
             SaltSize = 32;
             FormatTypeName = "pbkdf2_sha256";
             SplitterChar = "$";
+            HashByteSize = 9;
         }
 
         public string SplitterChar { get; set; }
         public string FormatTypeName { get; set; }
         public int HashIterations { get; set; }
         public int SaltSize { get; set; }
+        public int HashByteSize { get; set; }
         public string PlainText { get; set; }
         public string HashedText { get; private set; }
         public string Salt { get; set; }
@@ -59,11 +61,11 @@ namespace SimpleCryptoService.Implementation.Services
         }
         public string GenerateSalt()
         {
-            if (SaltSize < 1) throw new InvalidOperationException(string.Format("Cannot generate a salt of size {0}, use a value greater than 1, recommended: 16", SaltSize));
+            if (HashByteSize < 1) throw new InvalidOperationException(string.Format("Cannot generate a salt of size {0}, use a value greater than 1, recommended: 16", SaltSize));
 
             var rand = RandomNumberGenerator.Create();
 
-            var ret = new byte[SaltSize];
+            var ret = new byte[HashByteSize];
 
             rand.GetBytes(ret);
 
