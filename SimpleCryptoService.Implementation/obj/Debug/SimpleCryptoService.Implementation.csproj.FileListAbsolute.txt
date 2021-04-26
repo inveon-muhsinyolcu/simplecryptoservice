@@ -1,0 +1,6 @@
+C:\git-projects\SimpleCryptoService\SimpleCryptoService\SimpleCryptoService.Implementation\bin\Debug\SimpleCryptoService.Implementation.dll
+C:\git-projects\SimpleCryptoService\SimpleCryptoService\SimpleCryptoService.Implementation\bin\Debug\SimpleCryptoService.Implementation.pdb
+C:\git-projects\SimpleCryptoService\SimpleCryptoService\SimpleCryptoService.Implementation\obj\Debug\SimpleCryptoService.Implementation.csprojAssemblyReference.cache
+C:\git-projects\SimpleCryptoService\SimpleCryptoService\SimpleCryptoService.Implementation\obj\Debug\SimpleCryptoService.Implementation.csproj.CoreCompileInputs.cache
+C:\git-projects\SimpleCryptoService\SimpleCryptoService\SimpleCryptoService.Implementation\obj\Debug\SimpleCryptoService.Implementation.dll
+C:\git-projects\SimpleCryptoService\SimpleCryptoService\SimpleCryptoService.Implementation\obj\Debug\SimpleCryptoService.Implementation.pdb
